@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0px 80px;
+}
+
+/* ===========img========= */
+.img {
+    background: url(1.jpg) no-repeat center;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+}
+
+.img-p {
+    padding: 20px 0px 760px 0px;
+}
+
+.img .theme button {
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* ==============nav=========== */
+.nav {
+    position: fixed;
+    height: 800px;
+    width: 100%;
+    background-color: rgb(255, 227, 66);
+    transition: 1s all ease-in-out;
+    transform: scale(0);
+}
+
+.nav .navbar {
+    padding: 20px;
+}
+
+.nav .navbar button {
+    height: 45px;
+    width: 45px;
+    color: black;
+    font-size: 25px;
+    transform: translate(1420px, 20px);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav .navbar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    text-align: center;
+}
+
+.nav .navbar ul li a {
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.nav_toggle {
+    position: fixed;
+    height: 390px;
+    width: 100%;
+    transition: 1s all ease-in-out;
+    transform: scale(1);
+}
+
+.nav_toggle .navbar {
+    padding: 20px;
+}
+
+.nav_toggle .navbar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    text-align: center;
+}
+
+.nav_toggle .navbar ul li a {
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}

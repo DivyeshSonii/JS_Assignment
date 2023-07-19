@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Password</title>
+    <style>
+        .border {
+            height: 80px;
+            width: 300px;
+            padding: 20px;
+            margin: auto;
+            margin-top: 250px;
+            border: 2px solid black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="#" class="border">
+        <label for="">Enter Password:</label>
+        <input type="password" id="pass">
+        <br> <br>
+        <input type="checkbox" id="password" onclick="img()">
+        <label for="password">Show Password:</label>
+    </form>
+    <script>
+        function img() {
+            var word = document.getElementById("pass")
+            if (pass.type == "password") {
+                pass.type = "text"
+            } else {
+                pass.type = "password"
+            }
+        }
+    </script>
+
+</body>
+
+</html>

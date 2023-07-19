@@ -1,0 +1,39 @@
+.container {
+    margin: auto;
+    height: auto;
+    border: 2px solid black;
+    padding: 40px;
+}
+
+.container .col-2 input {
+    height: 30px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.container .col-1 {
+    font-weight: bold;
+}
+
+.c1 {
+    height: 37px;
+    width: 208px;
+    margin-top: 10px;
+    background-color: rgb(248, 144, 9);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.t-1 {
+    height: 300px;
+    padding: 45px 150px 45px 20px;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.heading span {
+    font-size: 30px;
+    text-align: center;
+}
